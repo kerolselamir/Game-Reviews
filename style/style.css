@@ -1,0 +1,65 @@
+
+
+body
+{
+    background-color: rgb(39,43,48);
+}
+.item
+{
+    cursor: pointer;
+}
+
+.nav-border
+{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav-link {
+
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .active,.nav-link:hover {
+    color: rgb(20,126,176) !important;
+  }
+
+ .nav-border
+  {
+    background-color: rgb(58,73,123);
+  }
+  .desc
+  {
+    color: rgb(109,112,115);
+  }
+  .brd-tb
+  {
+    border-top: 1px solid black;
+  }
+  
+  .f-div
+  {
+    background-color: rgb(54,55,57);
+    color: white;
+  }
+  .item
+  {
+    transition: all 0.8s;
+    filter: grayscale(1.2);
+  }
+  .item:hover
+  {
+    transform: scale(1.1);
+    filter: grayscale(0);
+  }
+  .up-bg
+  {
+    background-image: url(../reviews-concept-landing-page_52683-12806.avif);
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center ;
+    filter: grayscale(1.1);
+  }

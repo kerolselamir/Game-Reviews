@@ -1,0 +1,105 @@
+
+<html>
+
+<head>
+
+
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+  <div class="up-bg"></div>
+    <nav class="navbar navbar-expand-lg  sticky-top">
+        <div class="container  nav-border">
+          <a class="navbar-brand text-white" href="#">GAME REVIEWS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" about_game="mmorpg" href="#">mmorpg</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" about_game="shooter" href="#">shooter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" about_game="sailing" href="#">sailing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" about_game="permadeath" href="#">permadeath</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" about_game="superhero"  href="#">superhero</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" about_game="pixel" href="#">pixel</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <ul>
+    </ul>
+
+    <div class="container py-5">
+        <div class="row gap-5 justify-content-center" id="myRow">
+          
+        </div>
+
+    </div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">ABOUT GAME</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="" id="myImage" class="w-100" alt="">
+        <h2 id="myTiltle">title</h2>
+        <p id="short_description"></p>
+       <a href="" id="details" target="_blank">Show Game</a>
+
+       <div class="d-flex">
+        <p>Category : </p>
+        <p id="cate"></p>
+       </div>
+
+       <div class="d-flex">
+        <p>Platform : </p>
+        <p id="platform"> </p>
+       </div>
+
+       <div class="d-flex">
+        <p>Status : </p>
+        <p id="status"></p>
+       </div>
+
+
+       
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
